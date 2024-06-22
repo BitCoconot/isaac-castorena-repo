@@ -23,7 +23,8 @@ Using Git Bash
 - Then Click on Run button, the preference to Run is https.
 	NOTE: if ISS is selected make sure the certificate is installed, the certificated should be installed, normally VS ask to enable the use of the certificate
 
-After to the solution start, the Swagger page should be displayed.
+Using Swagger
+- After to the solution start, the Swagger page should be displayed.
 - You can test the application just clicking the GET method 
 - click try it out
 - add the n parameter in the parameter section
@@ -38,12 +39,13 @@ Using Postman,
 	NOTE: The local host port number should be replace with the actual port show after to run the solution
 - The n parameter should be updated according which number of stories you want to retrieve from the API.
 - Then Click Send
-	  NOTE: if ISS is selected make sure the certificate is installed, the certificated should be installed, enable the use of the certificate in postman
+	  -NOTE: if ISS is selected make sure the certificate is installed, the certificated should be installed, enable the use of the certificate in postman
 
 Using Browser:
-Run the Application using Visual Studio
-type in the URL section : https://localhost:7110/api/stories/detail?n=2
-NOTE: The local host port number should be replace with the actual port show after to run the solution
+-Run the Application using Visual Studio
+-type in the URL section : https://localhost:7110/api/stories/detail?n=2
+- NOTE: The local host port number should be replace with the actual port show after to run the solution
+-  The result will be displayed as a json object in the browser.
 
 ASSUMPTIONS
 
