@@ -15,7 +15,7 @@ namespace Stories.API.Controllers
         }
 
 
-        [HttpGet("api/stories/detail")]
+        [HttpGet("detail")]
         public async Task<IActionResult> GetData([FromQuery] int n)
         {
             #region GetStories
